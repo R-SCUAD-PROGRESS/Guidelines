@@ -14,7 +14,7 @@ Aturan pertama yang harus diikuti semua orang adalah menggunakan 'tab'
 karakter, dan tidak menggunakan spasi, untuk membuat indentasi kode. Juga, 'tab'
 karakter harus mewakili 4 spasi. 
 
-#### --- Braces (kurung kuruawal)
+#### --- Braces (kurung kurawal)
 pada penggunakan kurung kurawal dilakukan dibawan pernyatan (if statement)
 dan jika ditutup harus sejajar dengan awalan, contoh:
 
