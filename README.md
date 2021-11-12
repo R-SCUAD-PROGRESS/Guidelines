@@ -9,12 +9,12 @@ robot disetiap tahun yang membuat program cukup berantakan, maka rule ini diguna
 melakukan perubahan format program sesui dengan format dari Darwin-OP sehingga program akan lebih mudah
 dianalisis dan rapi saat dilakukan penambahan kode secara masif.
 
-##### --- Whitespace (tab)
+#### --- Whitespace (tab)
 Aturan pertama yang harus diikuti semua orang adalah menggunakan 'tab'
 karakter, dan tidak menggunakan spasi, untuk membuat indentasi kode. Juga, 'tab'
 karakter harus mewakili 4 spasi. 
 
-##### --- Braces (kurung kuruawal)
+#### --- Braces (kurung kuruawal)
 pada penggunakan kurung kurawal dilakukan dibawan pernyatan (if statement)
 dan jika ditutup harus sejajar dengan awalan, contoh:
 
@@ -46,7 +46,7 @@ karena itu tidak diperlukan, contoh:
         else 
             goto exit;
 
-##### --- formatting
+#### --- formatting
 jika menggunakan terlalu banyak pernyatakan pastikan membuat fungsi baru pada sebelum fungsi main.
 hal ini akan memudahkan pengeliatan dalam baris program untuk identifikasi, contoh jika mengalami 
 hal seperti ini:
