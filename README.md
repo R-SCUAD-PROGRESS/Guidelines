@@ -95,5 +95,13 @@ gunakan function untuk membuat program lebih rapi
             }
         }
         
+ ## NOTE
+ > jika melihat program tidak sesuai format, maka pengembang wajib memperbaiki dan mengkompile terlebih dahulu selanjutkan melakukan update commit dengan nama "format adjustment" dengan cara sebagai berikut.
+ 
+        git add .
+        git commit -m "# format adjustment"
+        git push origin master
+        
+        
         
 [![wiki](https://img.shields.io/badge/R--SCUAD-wiki-brightgreen?style=plactic&logo=wikipedia)](https://github.com/rscuad/wiki/wiki)
