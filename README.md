@@ -46,7 +46,7 @@ karena itu tidak diperlukan, contoh:
         else 
             goto exit;
 
-###### formatting
+##### --- formatting
 jika menggunakan terlalu banyak pernyatakan pastikan membuat fungsi baru pada sebelum fungsi main.
 hal ini akan memudahkan pengeliatan dalam baris program untuk identifikasi, contoh jika mengalami 
 hal seperti ini:
