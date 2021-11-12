@@ -66,11 +66,11 @@ hal seperti ini:
                         {
                             if(robot_equation)
                                 //do something
-                         }
-                     }
-                 }
-             }
-         }
+                        }
+                    }
+                }
+            }
+        }
 
 
 gunakan function untuk membuat program lebih rapi
