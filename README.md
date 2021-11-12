@@ -6,7 +6,9 @@
 
 peraturan ini dibuat dikarenakan banyaknya penambahan baris program dan pengembangan
 robot disetiap tahun yang membuat program cukup berantakan, maka rule ini digunakan untuk mencoba
-melakukan perubahan format program sesui dengan format dari Darwin-OP sehingga program akan lebih mudah
+melakukan perubahan format program sesui dengan format dari 
+<a href="https://emanual.robotis.com/docs/en/platform/op/getting_started/">Darwin-OP</a>
+sehingga program akan lebih mudah
 dianalisis dan rapi saat dilakukan penambahan kode secara masif.
 
 #### --- Whitespace (tab)
