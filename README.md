@@ -97,7 +97,7 @@ gunakan function untuk membuat program lebih rapi
             }
         }
         
-#### GIT
+#### --- GIT
 <a href="https://git-scm.com/">GIT</a> adalah sebuah vcs(version control system) digunakan
 untuk melakukan log dan kolaborasi dalam tim. Tutorial git dapat dilihat disini.
 <pre> -- pengembangan robot untuk mode
