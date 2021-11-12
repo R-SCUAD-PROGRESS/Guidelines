@@ -102,6 +102,6 @@ gunakan function untuk membuat program lebih rapi
         git commit -m "# format adjustment"
         git push origin master
         
-        
+    
         
 [![wiki](https://img.shields.io/badge/R--SCUAD-wiki-brightgreen?style=plactic&logo=wikipedia)](https://github.com/rscuad/wiki/wiki)
