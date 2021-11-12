@@ -97,12 +97,34 @@ gunakan function untuk membuat program lebih rapi
             }
         }
         
- ## NOTE
- > jika melihat program tidak sesuai format, maka pengembang wajib memperbaiki dan mengkompile terlebih dahulu selanjutkan melakukan update commit dengan nama "format adjustment" dengan cara sebagai berikut.
+#### GIT
+<a href="https://git-scm.com/">GIT</a> adalah sebuah vcs(version control system) digunakan
+untuk melakukan log dan kolaborasi dalam tim. Tutorial git dapat dilihat disini.
+<pre> -- pengembangan robot untuk mode
+jika melakukan pengembangan robot dengan mode2 tertentu untuk pertandingan yang sama. pengembang 
+diharuskan menggunakan branch untuk membuat environment sendiri sehingga tidak ada perubahan saat
+melakukan pengembangan dimode lain.
+</pre>
+    
+            $ git branch mode2
+            $ git checkout mode2
+            
+ hanya seperti itu. jika ingin melihat branch seperti ini:
  
-        git add .
-        git commit -m "# format adjustment"
-        git push origin master
+            $ git branch
+            >    master
+               * mode2
+               
+ tanda * berarti project kita poda branch tersebut.
+ 
+ 
+ ## NOTE
+ > jika melihat program tidak sesuai format, maka pengembang wajib memperbaiki dan mengkompile 
+ terlebih dahulu selanjutkan melakukan update commit dengan nama "format adjustment" dengan cara sebagai berikut.
+ 
+        $ git add .
+        $ git commit -m "# format adjustment"
+        $ git push origin master
         
     
         
