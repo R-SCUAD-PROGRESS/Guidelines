@@ -103,20 +103,20 @@ gunakan function untuk membuat program lebih rapi
         
 #### --- Variable
 
-varabel merupakan hal yang sering membuat struktur program berubah pada RSCUAD kita coba kembalikan
-sesuai dengan Framework Darwin-OP yaitu menggunakan bahasa inggris dan nama yang sesuai dengan kepeluan
+variabel merupakan hal yang sering membuat struktur program berubah pada RSCUAD kita coba kembalikan
+sesuai dengan Framework Darwin-OP yaitu menggunakan bahasa inggris dan nama yang sesuai dengan keperluan
 variable
 
         const int threshold = 250;  
         float approach = 0;
             
  gunankan tepe data yang sesui dengan kebutuhan. jika hanya digunakan untuk trigger yang bernilai
- true dan falde maka cukup gunakan boolean;
+ true dan false maka cukup gunakan boolean;
  
         bool trig = false;
             
  --- OP3 style. 
- deskripsikan varible pada header library program, kemudian deskripsikan nilai pada contruction library <a href="https://www.w3schools.com/cpp/cpp_constructors.asp">lihat disini</a>
+ deskripsikan varible pada header library program, kemudian deskripsikan nilai pada construction library <a href="https://www.w3schools.com/cpp/cpp_constructors.asp">lihat disini</a>
  
  file header.h
  
@@ -192,9 +192,9 @@ gunakan fuction atau library jika sebuah kondisi yang digunakan terus menerus
 untuk melakukan log dan kolaborasi dalam tim. Tutorial git dapat dilihat <a href="https://medium.com/@fahmiprasetiiio/belajar-git-untuk-pemula-7625c686c68f">
 disini.</a>
 <pre> -- pengembangan robot untuk mode
-jika melakukan pengembangan robot dengan mode2 tertentu untuk pertandingan yang sama. pengembang 
+jika melakukan pengembangan robot dengan mode-mode tertentu untuk pertandingan yang sama. pengembang 
 diharuskan menggunakan branch untuk membuat environment sendiri sehingga tidak ada perubahan saat
-melakukan pengembangan dimode lain.
+melakukan pengembangan di mode lain.
 </pre>
     
         $ git branch mode2
