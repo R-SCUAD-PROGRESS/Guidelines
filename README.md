@@ -107,36 +107,36 @@ varabel merupakan hal yang sering membuat struktur program berubah pada RSCUAD k
 sesuai dengan Framework Darwin-OP yaitu menggunakan bahasa inggris dan nama yang sesuai dengan kepeluan
 variable
 
-            const int threshold = 250;  
-            float approach = 0;
+        const int threshold = 250;  
+        float approach = 0;
             
  gunankan tepe data yang sesui dengan kebutuhan. jika hanya digunakan untuk trigger yang bernilai
  true dan falde maka cukup gunakan boolean;
  
-            bool trig = false;
+        bool trig = false;
             
  --- OP3 style. 
  deskripsikan varible pada header library program, kemudian deskripsikan nilai pada contruction library <a href="https://www.w3schools.com/cpp/cpp_constructors.asp">lihat disini</a>
  
  file header.h
  
-            class header {        
-                public: 
-                    .....
-                    .....
-                private:
-                    int y_axis; 
-                    int x_axis; 
-            };
+        class header {        
+            public: 
+                .....
+                .....
+            private:
+                int y_axis; 
+                int x_axis; 
+        };
         
         
  file header.cpp
  
-            int header::header()
-            {
-                y_axis = 0;
-                x_axis = 0;
-            }
+        int header::header()
+        {
+            y_axis = 0;
+            x_axis = 0;
+        }
        
  
  
@@ -144,48 +144,48 @@ variable
 komentar digunakan untuk mendeskripsikan algoritma atau program yang kondisinya perlu dideskripsikan
 gunakan perintah /* ...  untuk mendiskripsikan suatu algoritma tertentu dan // untuk variable.
 
-            const int threshold = 250;  // const digunakan untuk nilai ketetapan
-            float approach = 0;         // konstanta nilai awal
-            
-            /*
-            *   algoritma dribling
-            */
-            if(pan != threshold)
-                foo();
+        const int threshold = 250;  // const digunakan untuk nilai ketetapan
+        float approach = 0;         // konstanta nilai awal
+
+        /*
+        *   algoritma dribling
+        */
+        if(pan != threshold)
+            foo();
                 
 #### --- Pattern
 gunakan pola <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY Principle</a> untuk mengurangi 
 program yang tidak diperlukan. contoh menggunakan perulangan.
 
-            /*
-            *   Tidak disarankan
-            */
-            servo_pan = 5;
-            servo_pan = 10;
-            servo_pan = 15;
-            servo_pan = 20;
-            
-            
-            /*
-            *   disarankan
-            */
-            for(int i=5; i<=20; i+5)
-                servo_pan = i;
+        /*
+        *   Tidak disarankan
+        */
+        servo_pan = 5;
+        servo_pan = 10;
+        servo_pan = 15;
+        servo_pan = 20;
+
+
+        /*
+        *   disarankan
+        */
+        for(int i=5; i<=20; i+5)
+            servo_pan = i;
                 
 gunakan fuction atau library jika sebuah kondisi yang digunakan terus menerus
 
-            void foo()
-            {
-                X_MOVE_AMPLITUDE = 10;
-                Y_MOVE_AMPLITUDE = 15;
-            }
-            ....
-            int main()
-            {
-                ......
-                foo();
-            }
-            
+        void foo()
+        {
+            X_MOVE_AMPLITUDE = 10;
+            Y_MOVE_AMPLITUDE = 15;
+        }
+        ....
+        int main()
+        {
+            ......
+            foo();
+        }
+
             
 #### --- GIT
 <a href="https://git-scm.com/">GIT</a> adalah sebuah vcs(version control system) digunakan
@@ -197,14 +197,14 @@ diharuskan menggunakan branch untuk membuat environment sendiri sehingga tidak a
 melakukan pengembangan dimode lain.
 </pre>
     
-            $ git branch mode2
-            $ git checkout mode2
+        $ git branch mode2
+        $ git checkout mode2
             
  hanya seperti itu. jika ingin melihat branch seperti ini:
  
-            $ git branch
-            >    master
-               * mode2
+        $ git branch
+        >    master
+           * mode2
                
  tanda * berarti project kita poda branch tersebut.
  
