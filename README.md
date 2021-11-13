@@ -13,6 +13,7 @@ dianalisis dan rapi saat dilakukan penambahan kode secara masif.
 
 > kami merekomendasi menggunakan code editor <a href="https://code.visualstudio.com/">
   Visual Studio Code</a>
+- [x] proses editing program dilakukan dikomputer pengembang jika dirobot tidak dianjurkan menggunakan vs code seperti odroid xu4.
 
 #### --- Whitespace (tab)
 Aturan pertama yang harus diikuti semua orang wajib menggunakan 'tab'
