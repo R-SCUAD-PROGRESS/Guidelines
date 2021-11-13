@@ -188,7 +188,8 @@ gunakan fuction atau library jika sebuah kondisi yang digunakan terus menerus
             
 #### --- GIT
 <a href="https://git-scm.com/">GIT</a> adalah sebuah vcs(version control system) digunakan
-untuk melakukan log dan kolaborasi dalam tim. Tutorial git dapat dilihat disini.
+untuk melakukan log dan kolaborasi dalam tim. Tutorial git dapat dilihat <a href="https://medium.com/@fahmiprasetiiio/belajar-git-untuk-pemula-7625c686c68f">
+disini.</a>
 <pre> -- pengembangan robot untuk mode
 jika melakukan pengembangan robot dengan mode2 tertentu untuk pertandingan yang sama. pengembang 
 diharuskan menggunakan branch untuk membuat environment sendiri sehingga tidak ada perubahan saat
