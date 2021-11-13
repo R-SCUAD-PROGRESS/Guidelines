@@ -140,9 +140,10 @@ variable
        
  
  
-#### --- Commant
+#### --- Comment
 komentar digunakan untuk mendeskripsikan algoritma atau program yang kondisinya perlu dideskripsikan
-gunakan perintah /* ...  untuk mendiskripsikan suatu algoritma tertentu dan // untuk variable.
+gunakan perintah /* ...  untuk mendiskripsikan suatu algoritma tertentu dan // untuk variable. gunakan
+komentar yang jelas pada setiap algoritma sehingga mudah dipahami. komentar diperbolehkan menggunkan bahasa indonesia.
 
         const int threshold = 250;  // const digunakan untuk nilai ketetapan
         float approach = 0;         // konstanta nilai awal
