@@ -135,7 +135,7 @@ variable
             int header::header()
             {
                 y_axis = 0;
-                x_axis = 0
+                x_axis = 0;
             }
        
  
