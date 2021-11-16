@@ -120,7 +120,8 @@ variable
  
  file header.h
  
-        class header {        
+        class header 
+        {        
             public: 
                 .....
                 .....
