@@ -15,6 +15,20 @@ dianalisis dan rapi saat dilakukan penambahan kode secara masif.
   Visual Studio Code</a>
 - [x] proses editing program dilakukan dikomputer pengembang jika dirobot tidak dianjurkan menggunakan vs code seperti odroid xu4.
 
+#### --- Create New Project
+- jika anda ingin melakukan pembuatan project baru copy program dari base program (pada github), kemudian
+ganti nama sesuai format nama contoh "robot1-2021"
+- masuk pada directory Linux/project buat nama baru dengan mengcopy folder soccer jika rule berubah
+- jika tidak lakukan workflow pada folder yang sudah tersedia seperti dibawah
+        
+        + build
+        + include
+        + lib
+        - project
+            + Soccer            -> perlombaan offline / sepak bola normal
+            + Technical         -> perlombaan Technical challenge
+            ....
+
 #### --- Whitespace (tab)
 Aturan pertama yang harus diikuti semua orang wajib menggunakan 'tab'
 karakter, dan tidak menggunakan spasi, untuk membuat indentasi kode. <strong>Juga 'tab'
