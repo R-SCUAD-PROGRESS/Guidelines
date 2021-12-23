@@ -116,7 +116,6 @@ gunakan function untuk membuat program lebih rapi
         }
         
 #### --- Variable
-
 variabel merupakan hal yang sering membuat struktur program berubah pada RSCUAD kita coba kembalikan
 sesuai dengan Framework Darwin-OP yaitu menggunakan bahasa inggris dan nama yang sesuai dengan keperluan
 variable
@@ -124,13 +123,13 @@ variable
         const int threshold = 250;  
         float approach = 0;
             
- gunankan tepe data yang sesui dengan kebutuhan. jika hanya digunakan untuk trigger yang bernilai
- true dan false maka cukup gunakan boolean;
+gunankan tepe data yang sesui dengan kebutuhan. jika hanya digunakan untuk trigger yang bernilai
+true dan false maka cukup gunakan boolean;
  
         bool trig = false;
             
- --- OP3 style. 
- deskripsikan varible pada header library program, kemudian deskripsikan nilai pada construction library <a href="https://www.w3schools.com/cpp/cpp_constructors.asp">lihat disini</a>
+#### --- OP3 style. 
+deskripsikan varible pada header library program, kemudian deskripsikan nilai pada construction library <a href="https://www.w3schools.com/cpp/cpp_constructors.asp">lihat disini</a>
  
  file header.h
  
