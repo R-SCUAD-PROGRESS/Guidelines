@@ -15,9 +15,38 @@ dianalisis dan rapi saat dilakukan penambahan kode secara masif.
   Visual Studio Code</a>
 - [x] proses editing program dilakukan dikomputer pengembang jika dirobot tidak dianjurkan menggunakan vs code seperti odroid xu4.
 
+#### --- Create New Program Robot
+pisahkan research Rscuad dengan folder robot darwin OP2 dengan menggunakan submodule untuk library rscuad. tambahkan setiap research baru di dalam repo rscuad. penambahan hanya dilakukan dengan ijin ketua tim.
+
+- clone folder base OP2
+
+        $ git clone https://github.com/R-SCUAD-PROGRESS/rscuad-base.git
+        $ cd rscuad-base
+
+- create submodule
+
+        $ git submodule add <url> Rscuad
+
+- update submodule
+
+        $ cd Rscuad
+        $ git pull origin master
+        $ cd ..
+
+- tampilan directory
+        
+        - rscuad-base 
+            + Framework
+            + Linux
+            + Rscuad
+
+- push program to github
+
+        $ git add .
+        $ git commit -m "add submodule"
+        $ git push origin master
+        
 #### --- Create New Project
-- jika anda ingin melakukan pembuatan project baru copy program dari base program (pada github), kemudian
-ganti nama sesuai format nama contoh "robot1-2021"
 - masuk pada directory Linux/project buat nama baru dengan mengcopy folder soccer jika rule berubah
 - jika tidak lakukan workflow pada folder yang sudah tersedia seperti dibawah
         
@@ -28,6 +57,25 @@ ganti nama sesuai format nama contoh "robot1-2021"
             + Soccer            -> perlombaan offline / sepak bola normal
             + Technical         -> perlombaan Technical challenge
             ....
+
+#### --- Configuration file
+konfigurasi baru file rscuad
+
+        rscuad-base 
+            + Framework
+            + Linux
+            + Rscuad
+
+jika anda ingin menambahkan fitur yang ada pada folder rscuad perbarui makefile sehingga file .cpp akan dapat dieksekusi    
+        
+        # add new files to redirect Rscuad folder
+        RSCUAD = ../../../Rscuad/communication.cpp ../../../Rscuad/serial.cpp
+        
+        ....
+
+        $(TARGET): darwin.a $(OBJECTS)
+	        $(CXX) $(CFLAGS) $(OBJECTS) $(RSCUAD) ../../lib/darwin.a -o $(TARGET) $(LFLAGS)
+
 
 #### --- Whitespace (tab)
 Aturan pertama yang harus diikuti semua orang wajib menggunakan 'tab'
