@@ -83,7 +83,7 @@ karakter, dan tidak menggunakan spasi, untuk membuat indentasi kode. <strong>Jug
 karakter harus mewakili 4 spasi.</strong>
 
 #### --- Case style
-Gunakan Pascal case untuk class dan function, gunakan Camel case untuk variale <a href="https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841"> see referance</a>
+Gunakan Pascal case untuk class dan function, gunakan Camel case untuk variable <a href="https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841"> see referance</a>
 
 #### --- Braces (kurung kurawal)
 pada penggunakan kurung kurawal dilakukan dibawah pernyatan (if statement)
