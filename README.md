@@ -69,7 +69,7 @@ konfigurasi baru file rscuad
 jika anda ingin menambahkan fitur yang ada pada folder rscuad perbarui makefile sehingga file .cpp akan dapat dieksekusi    
         
         # add new files to redirect Rscuad folder
-        RSCUAD_SRC  = 	$(RSCUAD_DIR)/communication/communication.cpp\
+        RSCUAD_SRC  =   $(RSCUAD_DIR)/communication/communication.cpp\
                         $(RSCUAD_DIR)/serial/serial.cpp\
                         $(RSCUAD_DIR)/utilities/swap.cpp\
                         $(RSCUAD_DIR)/camera/camera.cpp
