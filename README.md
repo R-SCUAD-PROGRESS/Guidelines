@@ -76,6 +76,8 @@ jika anda ingin menambahkan fitur yang ada pada folder rscuad perbarui makefile 
         $(TARGET): darwin.a $(OBJECTS)
 	        $(CXX) $(CFLAGS) $(OBJECTS) $(RSCUAD) ../../lib/darwin.a -o $(TARGET) $(LFLAGS)
 
+#### --- Case style
+gunakan Pascal case untuk class dan function, gunakan Camel case untuk variale <a href="https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841"> see referance</a>
 
 #### --- Whitespace (tab)
 Aturan pertama yang harus diikuti semua orang wajib menggunakan 'tab'
