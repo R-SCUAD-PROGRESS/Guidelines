@@ -1,7 +1,7 @@
 ### RSCUAD Development Rules
 
     | RSCUAD 2021
-    | danu andrean
+    | Rscuad Team
 
 
 peraturan ini dibuat dikarenakan banyaknya penambahan baris program dan pengembangan
@@ -91,8 +91,8 @@ dan jika ditutup harus sejajar dengan awalan, contoh:
 
         if (error != -ENODEV) 
         {
-            foo();
-            bar();
+            Foo();
+            Bar();
         }
         
 jika anda ingin menggunakan else statement, maka else statement tidak boleh sejajar 
@@ -100,8 +100,8 @@ dengan kurung kurawal sebagai berikut:
 
         if (error != -ENODEV) 
         {
-            foo();
-            bar();
+            Foo();
+            Bar();
         } 
         else 
         {
@@ -113,7 +113,7 @@ Jika kurung kurawal tidak diperlukan untuk sebuah pernyataan, jangan menggunakan
 karena itu tidak diperlukan, contoh:
 
         if (error != -ENODEV) 
-            foo();
+            Foo();
         else 
             goto exit;
 
@@ -161,7 +161,7 @@ gunakan function untuk membuat program lebih rapi
                 if(state2)
                 {
                     if(state3)
-                        foo();
+                        Foo();
                 }
             }
         }
@@ -211,13 +211,13 @@ gunakan perintah /* ...  untuk mendiskripsikan suatu algoritma tertentu dan // u
 komentar yang jelas pada setiap algoritma sehingga mudah dipahami. komentar diperbolehkan menggunkan bahasa indonesia.
 
         const int threshold = 250;  // const digunakan untuk nilai ketetapan
-        float approach = 0;         // konstanta nilai awal
+        float approach      = 0;    // konstanta nilai awal
 
         /*
         *   algoritma dribling
         */
         if(pan != threshold)
-            foo();
+            Foo();
                 
 #### --- Pattern
 gunakan pola <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY Principle</a> untuk mengurangi 
@@ -249,7 +249,7 @@ gunakan fuction atau library jika sebuah kondisi yang digunakan terus menerus
         int main()
         {
             ......
-            foo();
+            Foo();
         }
 
             
