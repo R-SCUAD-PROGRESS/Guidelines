@@ -69,12 +69,17 @@ konfigurasi baru file rscuad
 jika anda ingin menambahkan fitur yang ada pada folder rscuad perbarui makefile sehingga file .cpp akan dapat dieksekusi    
         
         # add new files to redirect Rscuad folder
-        RSCUAD = ../../../Rscuad/communication.cpp ../../../Rscuad/serial.cpp
+        RSCUAD_SRC  = 	$(RSCUAD_DIR)/communication/communication.cpp\
+                        $(RSCUAD_DIR)/serial/serial.cpp\
+                        $(RSCUAD_DIR)/utilities/swap.cpp\
+                        $(RSCUAD_DIR)/camera/camera.cpp
         
         ....
 
         $(TARGET): darwin.a $(OBJECTS)
-	        $(CXX) $(CFLAGS) $(OBJECTS) $(RSCUAD) ../../lib/darwin.a -o $(TARGET) $(LFLAGS)
+	            $(CXX) $(CFLAGS) $(OBJECTS) $(RSCUAD_SRC) ../../lib/darwin.a -o $(TARGET) $(LFLAGS)
+	            chmod 755 $(TARGET)
+
 
 
 #### --- Whitespace (tab)
