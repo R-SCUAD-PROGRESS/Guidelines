@@ -76,13 +76,14 @@ jika anda ingin menambahkan fitur yang ada pada folder rscuad perbarui makefile 
         $(TARGET): darwin.a $(OBJECTS)
 	        $(CXX) $(CFLAGS) $(OBJECTS) $(RSCUAD) ../../lib/darwin.a -o $(TARGET) $(LFLAGS)
 
-#### --- Case style
-gunakan Pascal case untuk class dan function, gunakan Camel case untuk variale <a href="https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841"> see referance</a>
 
 #### --- Whitespace (tab)
 Aturan pertama yang harus diikuti semua orang wajib menggunakan 'tab'
 karakter, dan tidak menggunakan spasi, untuk membuat indentasi kode. <strong>Juga 'tab'
 karakter harus mewakili 4 spasi.</strong>
+
+#### --- Case style
+Gunakan Pascal case untuk class dan function, gunakan Camel case untuk variale <a href="https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841"> see referance</a>
 
 #### --- Braces (kurung kurawal)
 pada penggunakan kurung kurawal dilakukan dibawah pernyatan (if statement)
@@ -143,7 +144,7 @@ hal seperti ini:
 
 gunakan function untuk membuat program lebih rapi
 
-        int foo()
+        int Foo()
         {
             if(parameter_equation)
             {
@@ -173,17 +174,17 @@ variable
         const int threshold = 250;  
         float approach = 0;
             
-gunankan tepe data yang sesui dengan kebutuhan. jika hanya digunakan untuk trigger yang bernilai
+gunankan tipe data yang sesui dengan kebutuhan. jika hanya digunakan untuk trigger yang bernilai
 true dan false maka cukup gunakan boolean;
  
         bool trig = false;
             
 #### --- OP3 style. 
-deskripsikan varible pada header library program, kemudian deskripsikan nilai pada construction library <a href="https://www.w3schools.com/cpp/cpp_constructors.asp">lihat disini</a>
+deskripsikan variable pada header library program, kemudian deskripsikan nilai pada construction library <a href="https://www.w3schools.com/cpp/cpp_constructors.asp">lihat disini</a>
  
  file header.h
  
-        class header 
+        class Header 
         {        
             public: 
                 .....
@@ -196,10 +197,10 @@ deskripsikan varible pada header library program, kemudian deskripsikan nilai pa
         
  file header.cpp
  
-        int header::header()
+        int Header::Header()
+        : y_axis(0)
+        , x_axis(0)
         {
-            y_axis = 0;
-            x_axis = 0;
         }
        
  
@@ -239,7 +240,7 @@ program yang tidak diperlukan. contoh menggunakan perulangan.
                 
 gunakan fuction atau library jika sebuah kondisi yang digunakan terus menerus
 
-        void foo()
+        void Foo()
         {
             X_MOVE_AMPLITUDE = 10;
             Y_MOVE_AMPLITUDE = 15;
