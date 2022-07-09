@@ -23,6 +23,13 @@ pisahkan research Rscuad dengan folder robot darwin OP2 dengan menggunakan submo
         $ git clone https://github.com/R-SCUAD-PROGRESS/rscuad-base.git
         $ cd rscuad-base
 
+<b>anda dapat dengan mudah melakukan konfigurasi dengan melakukan perintah:</b>
+        
+        $ sudo chmod 777 setup.sh
+        $ ./setup.sh
+
+<b>dengan melakukan perintah diatas anda bisa mengabaikan settingan dibawah!</b>
+
 - create submodule
 
         $ git submodule add <url> Rscuad
@@ -46,18 +53,6 @@ pisahkan research Rscuad dengan folder robot darwin OP2 dengan menggunakan submo
         $ git commit -m "add submodule"
         $ git push origin master
         
-#### --- Create New Project
-- masuk pada directory Linux/project buat nama baru dengan mengcopy folder soccer jika rule berubah
-- jika tidak lakukan workflow pada folder yang sudah tersedia seperti dibawah
-        
-        + build
-        + include
-        + lib
-        - project
-            + Soccer            -> perlombaan offline / sepak bola normal
-            + Technical         -> perlombaan Technical challenge
-            ....
-
 #### --- Configuration file
 konfigurasi baru file rscuad
 
@@ -80,7 +75,17 @@ jika anda ingin menambahkan fitur yang ada pada folder rscuad perbarui makefile 
 	            $(CXX) $(CFLAGS) $(OBJECTS) $(RSCUAD_SRC) ../../lib/darwin.a -o $(TARGET) $(LFLAGS)
 	            chmod 755 $(TARGET)
 
-
+#### --- Create New Project
+- masuk pada directory Linux/project buat nama baru dengan mengcopy folder soccer jika rule berubah
+- jika tidak lakukan workflow pada folder yang sudah tersedia seperti dibawah
+        
+        + build
+        + include
+        + lib
+        - project
+            + Soccer            -> perlombaan offline / sepak bola normal
+            + Technical         -> perlombaan Technical challenge
+            ....
 
 #### --- Whitespace (tab)
 Aturan pertama yang harus diikuti semua orang wajib menggunakan 'tab'
