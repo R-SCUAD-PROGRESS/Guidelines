@@ -224,8 +224,8 @@ komentar yang jelas pada setiap algoritma sehingga mudah dipahami. komentar dipe
         float approach      = 0;    // konstanta nilai awal
 
         /*
-        *   algoritma dribling
-        */
+         *   algoritma dribling
+         */
         if(pan != threshold)
             Foo();
                 
@@ -234,8 +234,8 @@ gunakan pola <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY
 program yang tidak diperlukan. contoh menggunakan perulangan.
 
         /*
-        *   Tidak disarankan
-        */
+         *   Tidak disarankan
+         */
         servo_pan = 5;
         servo_pan = 10;
         servo_pan = 15;
@@ -243,8 +243,8 @@ program yang tidak diperlukan. contoh menggunakan perulangan.
 
 
         /*
-        *   disarankan
-        */
+         *   disarankan
+         */
         for(int i=5; i<=20; i+5)
             servo_pan = i;
                 
