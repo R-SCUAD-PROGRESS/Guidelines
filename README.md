@@ -189,7 +189,7 @@ true dan false maka cukup gunakan boolean;
  
         bool trig = false;
             
-#### --- initial style. 
+#### --- Initial style. 
 deskripsikan variable pada header library program, kemudian deskripsikan nilai pada construction library <a href="https://www.w3schools.com/cpp/cpp_constructors.asp">lihat disini</a>
  
  file header.h
