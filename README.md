@@ -20,60 +20,13 @@ pisahkan research Rscuad dengan folder robot darwin OP2 dengan menggunakan submo
 
 - clone folder base OP2
 
-        $ git clone https://github.com/R-SCUAD-PROGRESS/rscuad-base.git
+        $ git clone https://github.com/R-SCUAD-PROGRESS/rscuad-base.git --recurse-submodules
         $ cd rscuad-base
 
 <b>anda dapat dengan mudah melakukan konfigurasi dengan melakukan perintah:</b>
         
         $ sudo chmod 777 setup.sh
         $ ./setup.sh
-
-<b>dengan melakukan perintah diatas anda bisa mengabaikan settingan dibawah!</b>
-
-- create submodule
-
-        $ git submodule add <url> Rscuad
-
-- update submodule
-
-        $ cd Rscuad
-        $ git pull origin master
-        $ cd ..
-
-- tampilan directory
-        
-        - rscuad-base 
-            + Framework
-            + Linux
-            + Rscuad
-
-- push program to github
-
-        $ git add .
-        $ git commit -m "add submodule"
-        $ git push origin master
-        
-#### --- Configuration file
-konfigurasi baru file rscuad
-
-        rscuad-base 
-            + Framework
-            + Linux
-            + Rscuad
-
-jika anda ingin menambahkan fitur yang ada pada folder rscuad perbarui makefile sehingga file .cpp akan dapat dieksekusi    
-        
-        # add new files to redirect Rscuad folder
-        RSCUAD_SRC  =   $(RSCUAD_DIR)/communication/communication.cpp\
-                        $(RSCUAD_DIR)/serial/serial.cpp\
-                        $(RSCUAD_DIR)/utilities/swap.cpp\
-                        $(RSCUAD_DIR)/camera/camera.cpp
-        
-        ....
-
-        $(TARGET): darwin.a $(OBJECTS)
-	            $(CXX) $(CFLAGS) $(OBJECTS) $(RSCUAD_SRC) ../../lib/darwin.a -o $(TARGET) $(LFLAGS)
-	            chmod 755 $(TARGET)
 
 #### --- Create New Project
 - masuk pada directory Linux/project buat nama baru dengan mengcopy folder soccer jika rule berubah
