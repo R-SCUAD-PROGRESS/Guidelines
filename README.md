@@ -68,7 +68,7 @@ dengan kurung kurawal sebagai berikut:
         } 
         else 
         {
-            report_error();
+            ReportError();
             goto exit;
         }
         
@@ -94,9 +94,9 @@ hal seperti ini:
                 {
                     if(state3)
                     {
-                        if(parameter_equation)
+                        if(parameterEquation)
                         {
-                            if(robot_equation)
+                            if(robotEquation)
                                 //do something
                         }
                     }
@@ -109,9 +109,9 @@ gunakan function untuk membuat program lebih rapi
 
         int Foo()
         {
-            if(parameter_equation)
+            if(parameterEquation)
             {
-                if(robot_equation)
+                if(robotEquation)
                     //do something
             }
         }
@@ -153,16 +153,16 @@ deskripsikan variable pada header library program, kemudian deskripsikan nilai p
                 .....
                 .....
             private:
-                int y_axis; 
-                int x_axis; 
+                int yAxis; 
+                int xAxis; 
         };
         
         
  file header.cpp
  
         int Header::Header()
-        : y_axis(0)
-        , x_axis(0)
+        : yAxis(0)
+        , xAxis(0)
         {
         }
        
@@ -189,17 +189,17 @@ program yang tidak diperlukan. contoh menggunakan perulangan.
         /*
          *   Tidak disarankan
          */
-        servo_pan = 5;
-        servo_pan = 10;
-        servo_pan = 15;
-        servo_pan = 20;
+        servoPan = 5;
+        servoPan = 10;
+        servoPan = 15;
+        servoPan = 20;
 
 
         /*
          *   disarankan
          */
         for(int i=5; i<=20; i+5)
-            servo_pan = i;
+            servoPan = i;
                 
 gunakan fuction atau library jika sebuah kondisi yang digunakan terus menerus
 
